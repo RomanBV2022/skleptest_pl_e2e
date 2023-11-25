@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="84b53d67-a0e5-4830-958b-f8733597e283" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/automation/tests/model/HomePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/automation/tests/model/base/BaseModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/automation/tests/model/base/BasePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/automation/tests/model/runner/BaseTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/automation/tests/model/runner/FilterForTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/automation/tests/model/runner/OrderForTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/automation/tests/model/runner/OrderUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/automation/tests/model/runner/PageUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/automation/tests/model/runner/ProjectUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/automation/tests/model/runner/SeleniumUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/automation/tests/model/runner/TestUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/automation/tests/model/tests/ViewHomeTest.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="workspaceImportEnabled" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2YfaXxV23qseurOEGxiZTsZYS69" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="automation.tests.model.runner" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.ViewHomeTest">
+    <configuration name="ViewHomeTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="sklep.pl_automation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="automation.tests.model.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="automation.tests.model.tests" />
+      <option name="MAIN_CLASS_NAME" value="automation.tests.model.tests.ViewHomeTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ViewHomeTest.viewHome" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="sklep.pl_automation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="automation.tests.model.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="automation.tests.model.tests" />
+      <option name="MAIN_CLASS_NAME" value="automation.tests.model.tests.ViewHomeTest" />
+      <option name="METHOD_NAME" value="viewHome" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.ViewHomeTest" />
+        <item itemvalue="TestNG.ViewHomeTest.viewHome" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="84b53d67-a0e5-4830-958b-f8733597e283" name="Changes" comment="" />
+      <created>1700919132943</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1700919132943</updated>
+    </task>
+    <servers />
+  </component>
+</project>
