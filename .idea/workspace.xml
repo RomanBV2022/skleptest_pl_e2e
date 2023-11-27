@@ -4,27 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="84b53d67-a0e5-4830-958b-f8733597e283" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/automation/tests/model/HomePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/automation/tests/model/base/BaseModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/automation/tests/model/base/BasePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/automation/tests/model/runner/BaseTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/automation/tests/model/runner/FilterForTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/automation/tests/model/runner/OrderForTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/automation/tests/model/runner/OrderUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/automation/tests/model/runner/PageUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/automation/tests/model/runner/ProjectUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/automation/tests/model/runner/SeleniumUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/automation/tests/model/runner/TestUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/automation/tests/model/tests/ViewHomeTest.java" afterDir="false" />
+    <list default="true" id="84b53d67-a0e5-4830-958b-f8733597e283" name="Changes" comment="sklep.pl first commit">
+      <change afterPath="$PROJECT_DIR$/src/test/java/automation/tests/model/AllProductPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/automation/tests/model/CartPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/automation/tests/model/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/automation/tests/model/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/automation/tests/model/base/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/automation/tests/model/base/BasePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/automation/tests/model/runner/PageUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/automation/tests/model/runner/PageUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/automation/tests/model/runner/ProjectUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/automation/tests/model/runner/ProjectUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/automation/tests/model/runner/TestUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/automation/tests/model/runner/TestUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/automation/tests/model/tests/ViewHomeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/automation/tests/model/tests/ViewHomeTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,6 +28,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -57,22 +51,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Disk D/RedRover.shools/MyJenkins/JenkinsQA_07&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="automation.tests.model" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="automation.tests.model.runner" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.ViewHomeTest">
+  <component name="RunManager" selected="TestNG.ViewHomeTest.addProductToCart">
     <configuration name="ViewHomeTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="sklep.pl_automation" />
       <extension name="coverage">
@@ -84,6 +82,60 @@
       <option name="PACKAGE_NAME" value="automation.tests.model.tests" />
       <option name="MAIN_CLASS_NAME" value="automation.tests.model.tests.ViewHomeTest" />
       <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ViewHomeTest.addProductToCart" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="sklep.pl_automation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="automation.tests.model.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="automation.tests.model.tests" />
+      <option name="MAIN_CLASS_NAME" value="automation.tests.model.tests.ViewHomeTest" />
+      <option name="METHOD_NAME" value="addProductToCart" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ViewHomeTest.deleteProductFromCart" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="sklep.pl_automation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="automation.tests.model.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="automation.tests.model.tests" />
+      <option name="MAIN_CLASS_NAME" value="automation.tests.model.tests.ViewHomeTest" />
+      <option name="METHOD_NAME" value="deleteProductFromCart" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ViewHomeTest.selectCategory" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="sklep.pl_automation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="automation.tests.model.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="automation.tests.model.tests" />
+      <option name="MAIN_CLASS_NAME" value="automation.tests.model.tests.ViewHomeTest" />
+      <option name="METHOD_NAME" value="selectCategory" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -110,8 +162,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.ViewHomeTest" />
+        <item itemvalue="TestNG.ViewHomeTest.addProductToCart" />
+        <item itemvalue="TestNG.ViewHomeTest.deleteProductFromCart" />
         <item itemvalue="TestNG.ViewHomeTest.viewHome" />
+        <item itemvalue="TestNG.ViewHomeTest.selectCategory" />
+        <item itemvalue="TestNG.ViewHomeTest" />
       </list>
     </recent_temporary>
   </component>
@@ -124,6 +179,18 @@
       <option name="presentableId" value="Default" />
       <updated>1700919132943</updated>
     </task>
+    <task id="LOCAL-00001" summary="sklep.pl first commit">
+      <created>1700930852707</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1700930852707</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="sklep.pl first commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="sklep.pl first commit" />
   </component>
 </project>

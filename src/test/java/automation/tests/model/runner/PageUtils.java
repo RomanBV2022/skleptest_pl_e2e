@@ -96,21 +96,10 @@ public class PageUtils {
             HttpResponse<String> loginPage = getHttp(ProjectUtils.getUrl() + "login?from=%2F");
             sessionId = loginPage.headers().firstValue(HEAD_COOKIE).orElse(null);
 
-            // Поле sessionId используется внутри postHttp
-//            HttpResponse<String> indexPage = postHttp(ProjectUtils.getUrl() + "j_spring_security_check",
-//                    String.format("j_username=%s&j_password=%s&from=%%2F&Submit=",
-//                            URLEncoder.encode(ProjectUtils.getUserName(), StandardCharsets.UTF_8),
-//                            URLEncoder.encode(ProjectUtils.getPassword(), StandardCharsets.UTF_8)));
-//            sessionId = indexPage.headers().firstValue(HEAD_COOKIE).orElse("");
-
             page = getHttp(ProjectUtils.getUrl() + uri);
         }
 
-//        if (page.statusCode() == 403) {
-//            throw new RuntimeException(String.format("Error: side by user \"%s\" and password: \"%s\""), ProjectUtils);
-//        } else if (page.statusCode() != 200) {
-//            throw new RuntimeException("Something went wrong while clearing data");
-//        }
+
 
         return page.body();
     }
@@ -141,13 +130,6 @@ public class PageUtils {
                 getCrumbFromPage(viewPage));
     }
 
-//    private static void deleteUsers() {
-//        String userPage = getPage("manage/securityRealm/");
-//        deleteByLink("manage/securityRealm/user/%s/doDelete",
-//                getSubstringsFromPage(userPage, "href=\"user/", "/\"").stream()
-//                        .filter(user -> !user.equals(ProjectUtils.getUserName())).collect(Collectors.toSet()),
-//                getCrumbFromPage(userPage));
-//    }
 
     private static void deleteNodes() {
         String mainPage = getPage("");
