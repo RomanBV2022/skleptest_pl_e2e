@@ -108,6 +108,9 @@ public abstract class BaseTest {
         }
 
         ProjectUtils.logf("Execution time is %o sec\n\n", (testResult.getEndMillis() - testResult.getStartMillis()) / 1000);
+        if(testResult.isSuccess()) {
+            getDriver().quit();
+        }
     }
 
     protected WebDriver getDriver() {

@@ -5,15 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="84b53d67-a0e5-4830-958b-f8733597e283" name="Changes" comment="sklep.pl first commit">
-      <change afterPath="$PROJECT_DIR$/src/test/java/automation/tests/model/AllProductPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/automation/tests/model/CartPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/automation/tests/model/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/automation/tests/model/HomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/automation/tests/model/base/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/automation/tests/model/base/BasePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/automation/tests/model/runner/PageUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/automation/tests/model/runner/PageUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/automation/tests/model/runner/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/automation/tests/model/runner/BaseTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/automation/tests/model/runner/ProjectUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/automation/tests/model/runner/ProjectUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/automation/tests/model/runner/TestUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/automation/tests/model/runner/TestUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/automation/tests/model/tests/ViewHomeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/automation/tests/model/tests/ViewHomeTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,30 +34,30 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="MavenImportPreferences">
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="workspaceImportEnabled" value="true" />
-      </MavenImportingSettings>
-    </option>
-  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
   <component name="ProjectId" id="2YfaXxV23qseurOEGxiZTsZYS69" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Disk D/RedRover.shools/MyJenkins/JenkinsQA_07&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "TestNG.ViewHomeTest.addProductToCart.executor": "Run",
+    "TestNG.ViewHomeTest.deleteProductFromCart.executor": "Run",
+    "TestNG.ViewHomeTest.viewHome.executor": "Run",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Disk D/RedRover.shools/MyJenkins/JenkinsQA_07",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="automation.tests.model" />
@@ -169,6 +165,13 @@
         <item itemvalue="TestNG.ViewHomeTest" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-17.0.10-corretto-17.0.10-4caba194b151-5cd809f4" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
