@@ -9,6 +9,8 @@ import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.firefox.FirefoxOptions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 
 import java.io.File;
@@ -25,18 +27,18 @@ public final class ProjectUtils {
     private static final String CLOSE_BROWSER_IF_ERROR = PREFIX_PROP + "closeBrowserIfError";
     private static Properties properties;
 
-    static final ChromeOptions chromeOptions;
+    static final FirefoxOptions firefoxOptions;
+
 
     static {
-        chromeOptions = new ChromeOptions();
+       firefoxOptions = new FirefoxOptions();
         String options = getUrl();
         if (options != null) {
             for (String argument : options.split(";")) {
-                chromeOptions.addArguments(argument);
+                firefoxOptions.addArguments(argument);
             }
         }
-
-        WebDriverManager.chromedriver().setup();
+        WebDriverManager.firefoxdriver().setup();
     }
 
     static boolean isServerRun() {
@@ -49,7 +51,6 @@ public final class ProjectUtils {
 
     static String getUrl() {
         return String.format(PROP_HOST);
-
     }
 
     static void get(WebDriver driver) {
@@ -64,10 +65,11 @@ public final class ProjectUtils {
     }
 
     static WebDriver createDriver() {
-        WebDriver driver = new ChromeDriver(ProjectUtils.chromeOptions);
-        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+        WebDriver driverFirefox = new FirefoxDriver((ProjectUtils.firefoxOptions));
 
-        return driver;
+        driverFirefox.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+
+        return driverFirefox;
     }
 
     public static void log(String str) {
