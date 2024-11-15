@@ -4,15 +4,21 @@ import automation.tests.model.base.BasePage;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.ui.Select;
 
 import javax.swing.*;
+import java.util.List;
+import java.util.stream.Collectors;
 
 public class HomePage extends BasePage {
 
     public HomePage(WebDriver driver) {
         super(driver);
     }
+
+    @FindBy(xpath = "//ul[@id='desktop-menu']/li/a")
+    List<WebElement> headerItems;
 
     public String getTitleOfPage() {
 
@@ -38,6 +44,10 @@ public class HomePage extends BasePage {
                 .perform();
 
         return this.goAllProductsPage();
+    }
+    public List<String> showHeaderElements(){
+
+        return headerItems.stream().map(WebElement::getText).collect(Collectors.toList());
     }
 
 }

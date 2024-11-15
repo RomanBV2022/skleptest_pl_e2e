@@ -5,11 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="84b53d67-a0e5-4830-958b-f8733597e283" name="Changes" comment="sklep.pl first commit">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/automation/tests/model/CartPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/automation/tests/model/CartPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/automation/tests/model/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/automation/tests/model/HomePage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/automation/tests/model/runner/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/automation/tests/model/runner/BaseTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/automation/tests/model/runner/ProjectUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/automation/tests/model/runner/ProjectUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/automation/tests/model/tests/ViewHomeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/automation/tests/model/tests/ViewHomeTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,9 +25,22 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <favorite-branches>
+      <branch-storage>
+        <map>
+          <entry type="LOCAL">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="stage_pom" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </favorite-branches>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="brudnopis" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -45,14 +59,18 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Lst.executor": "Run",
+    "Maven.sklep.pl_automation [clean].executor": "Run",
+    "Maven.sklep.pl_automation [test].executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "TestNG.ViewHomeTest.addProductToCart.executor": "Run",
+    "TestNG.ViewHomeTest.checkHeaderItem.executor": "Run",
     "TestNG.ViewHomeTest.deleteProductFromCart.executor": "Run",
     "TestNG.ViewHomeTest.viewHome.executor": "Run",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Disk D/RedRover.shools/MyJenkins/JenkinsQA_07",
+    "last_opened_file_path": "C:/Disk D/!RedRover.shools/JavaRestAssuredReqres.in-API",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2"
@@ -66,20 +84,16 @@
       <recent name="automation.tests.model.runner" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.ViewHomeTest.addProductToCart">
-    <configuration name="ViewHomeTest" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.ViewHomeTest.checkHeaderItem">
+    <configuration name="Lst" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lists.Lst" />
       <module name="sklep.pl_automation" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="automation.tests.model.tests.*" />
+          <option name="PATTERN" value="lists.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="automation.tests.model.tests" />
-      <option name="MAIN_CLASS_NAME" value="automation.tests.model.tests.ViewHomeTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -102,7 +116,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ViewHomeTest.deleteProductFromCart" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="ViewHomeTest.checkHeaderItem" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="sklep.pl_automation" />
       <extension name="coverage">
         <pattern>
@@ -112,7 +126,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="automation.tests.model.tests" />
       <option name="MAIN_CLASS_NAME" value="automation.tests.model.tests.ViewHomeTest" />
-      <option name="METHOD_NAME" value="deleteProductFromCart" />
+      <option name="METHOD_NAME" value="checkHeaderItem" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -158,11 +172,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.ViewHomeTest.addProductToCart" />
-        <item itemvalue="TestNG.ViewHomeTest.deleteProductFromCart" />
+        <item itemvalue="TestNG.ViewHomeTest.checkHeaderItem" />
         <item itemvalue="TestNG.ViewHomeTest.viewHome" />
+        <item itemvalue="TestNG.ViewHomeTest.addProductToCart" />
+        <item itemvalue="Application.Lst" />
         <item itemvalue="TestNG.ViewHomeTest.selectCategory" />
-        <item itemvalue="TestNG.ViewHomeTest" />
       </list>
     </recent_temporary>
   </component>

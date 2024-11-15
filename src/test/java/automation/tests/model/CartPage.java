@@ -14,7 +14,8 @@ public class CartPage extends BasePage {
 
 
     public List<String> getProductList() {
-        List<WebElement> elementList = getDriver().findElements(By.xpath("//td[contains(@class, 'product-name')]//a"));
+        List<WebElement> elementList = getDriver().findElements(By.xpath(
+                "//td[contains(@class, 'product-name')]//a"));
         List<String> resultList = elementList.stream().map(WebElement::getText).toList();
 
         return resultList;

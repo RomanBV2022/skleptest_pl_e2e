@@ -25,6 +25,7 @@ public abstract class BaseTest {
         ProjectUtils.log("Browser open");
 
         driver = ProjectUtils.createDriver();
+
     }
 
     private void clearData() {
@@ -103,14 +104,15 @@ public abstract class BaseTest {
             ProjectUtils.takeScreenshot(driver, method.getName(), this.getClass().getName());
         }
 
-        if (methodsOrder.isGroupFinished(method) && !(!ProjectUtils.isServerRun() && !testResult.isSuccess() && !ProjectUtils.closeBrowserIfError())) {
+        if (methodsOrder.isGroupFinished(method) && !(!ProjectUtils.isServerRun() && !testResult.isSuccess()
+                && !ProjectUtils.closeBrowserIfError())) {
             stopDriver();
         }
 
-        ProjectUtils.logf("Execution time is %o sec\n\n", (testResult.getEndMillis() - testResult.getStartMillis()) / 1000);
-        if(testResult.isSuccess()) {
-            getDriver().quit();
-        }
+        ProjectUtils.logf("Execution time is %o sec\n\n", (testResult.getEndMillis()
+                - testResult.getStartMillis()) / 1000);
+
+
     }
 
     protected WebDriver getDriver() {
